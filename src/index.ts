@@ -1,0 +1,6 @@
+import "./style.css"
+export { default as classNames } from "./exports/utils/class-names/index"
+export { default as LoginForm } from "./exports/components/login-form/index"
+export { default as Layout } from "./exports/components/layout/index"
+export { default as OTPBindModal } from "./exports/components/otp-bind-modal/index"
+export type { Locale } from "./exports/types/index"

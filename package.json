@@ -1,0 +1,61 @@
+{
+  "name": "melodybaby",
+  "version": "",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "storybook dev",
+    "build": "tsup",
+    "test": "vitest --project=storybook",
+    "bundle-visualizer": "esbuild-visualizer --metadata ./dist/metafile-esm.json && open stats.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.6",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-onboarding": "^8.6.12",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/experimental-addon-test": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/react-vite": "^8.6.12",
+    "@storybook/test": "^8.6.12",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22.14.1",
+    "@vitest/browser": "^3.1.1",
+    "@vitest/coverage-v8": "^3.1.1",
+    "esbuild-visualizer": "^0.7.0",
+    "playwright": "^1.51.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "semantic-release": "^24.2.3",
+    "storybook": "^8.6.12",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.0.0",
+    "@tailwindcss/postcss": "^4.1.4",
+    "antd": "^5.24.7",
+    "autoprefixer": "^10.4.21",
+    "classnames": "^2.5.1",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "decimal.js": "^10.5.0",
+    "lodash-es": "^4.17.21",
+    "postcss": "^8.5.3",
+    "postcss-preset-env": "^10.1.5",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss": "^4.1.4"
+  },
+  "browserslist": [
+    "last 20 version",
+    "not dead"
+  ]
+}
